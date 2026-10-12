@@ -1,4 +1,4 @@
-# VNBrokers SDK for Python
+# Hoalu SDK for Python
 
 ## Disclaimer
 

@@ -3,15 +3,15 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "vnbrokers"
+name = "hoalulab"
 version = "0.1.1"
 description = "Multi-broker SDK for Vietnamese securities companies"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
 authors = [
-  { name = "VNBrokers", email = "vnbrokers.oss@gmail.com" }
+  { name = "Hoalulab", email = "hoalulab@gmail.com" }
 ]
 dependencies = [
   "httpx>=0.27",
@@ -30,7 +30,7 @@ dev = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/vnbrokers"]
+packages = ["src/hoalu"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
